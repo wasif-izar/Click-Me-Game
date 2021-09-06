@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/titleFragment2">
+
+    <fragment
+        android:id="@+id/titleFragment2"
+        android:name="com.example.clickme.TitleFragment"
+        android:label="fragment_title"
+        tools:layout="@layout/fragment_title" >
+        <action
+            android:id="@+id/action_titleFragment2_to_gameFragment2"
+            app:destination="@id/gameFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment2"
+        android:name="com.example.clickme.GameFragment"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game" >
+        <action
+            android:id="@+id/action_gameFragment2_to_scoreFragment2"
+            app:destination="@id/scoreFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/scoreFragment2"
+        android:name="com.example.clickme.ScoreFragment"
+        android:label="fragment_score"
+        tools:layout="@layout/fragment_score" >
+        <action
+            android:id="@+id/action_scoreFragment2_to_titleFragment2"
+            app:destination="@id/titleFragment2" />
+        <action
+            android:id="@+id/action_scoreFragment2_to_gameFragment2"
+            app:destination="@id/gameFragment2" />
+        <argument
+            android:name="score"
+            app:argType="integer" />
+    </fragment>
+</navigation>

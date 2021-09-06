@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ClickMe</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_tv">Click</string>
+    <string name="touch_desc">Icon for touching screen</string>
+    <string name="touch_instructions">Hit the button as many times as you can! if you miss the button be prepared to lose points</string>
+    <string name="btn_play">Play</string>
+    <string name="click_btn">Click Here</string>
+    <string name="time">00:00</string>
+    <string name="zero_score">0</string>
+    <string name="tv_label">Final Score</string>
+    <string name="btn_gamble">Gamble Points</string>
+    <string name="btn_play_again">Play Again</string>
+    <string name="btn_title">Return to Home</string>
+</resources>
