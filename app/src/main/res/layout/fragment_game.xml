@@ -161,7 +161,6 @@
             android:fontFamily="monospace"
             android:text="@string/time"
             android:textAlignment="center"
-            android:textColor="@color/black"
             android:textSize="36sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
